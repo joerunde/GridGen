@@ -5,7 +5,7 @@ void input(float &length, int &size, int &hillcount, int &maxrise, int &ridgecou
 
 int main () 
 {
-	srand((UINT)time(NULL));
+	srand((unsigned int)time(NULL));
 	int length, sideCount, hillCount, maxRise, ridgeCount, noise;
 	cout << "Enter Side Length: "; //length of the grid
 	cin >> length;
@@ -27,7 +27,7 @@ int main ()
 
 	Hills *testHills = new Hills(length, sideCount, hillCount, maxRise, ridgeCount, noise);
 	testHills->adjustGridHeight();
-	testHills->output("C:/Users/Joe/Documents/Dropbox/Heightgrid.obj");
+	testHills->output("Heightgrid.obj");
 
 	return 0;
 }
