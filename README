@@ -1,0 +1,1 @@
+This is a small program I wrote to generate .obj files that can be imported into any 3D modeling software. Based on user paramaters, it will generate a grid of terrain with hills and ridges. Could possibly be useful for quick terrain generation for an RTS. To run, use make, then a.out.

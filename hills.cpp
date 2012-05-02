@@ -115,7 +115,7 @@ void Hills::adjustGridHeight()
 /*
 	This function prints the contents of Hills in .obj file format to the file path provided
 */
-void Hills::output(string path){
+void Hills::output(char* path){
 	ofstream hGrid;
 	hGrid.open(path);
 	int i, c, current;

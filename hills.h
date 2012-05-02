@@ -15,7 +15,7 @@ class Hills{
 		//Hills(); //constructor with command line prompts
 		Hills(int newLength, int newSideCount, int newHillCount, int newMaxRise, int newRidgeCount, int newNoise);
 		void adjustGridHeight();
-		void output(string path);
+		void output(char* path);
 };
 
 #endif
